@@ -17,4 +17,9 @@ In backpropagation, as we have more layers, the gradient gets very small at the 
 
 # Activation functions
 
-they improve our ability to determine non-linear outcomes
+they improve our ability to determine non-linear outcomes.
+
+1. Sigmoid activation function: prone to vashing gradient problem
+2. hyperbolic tangent function: prone to vashing gradient problem
+3. Rectified Linear Unit (ReLU): solves vashing gradient problem
+4. Leaky Rectified Linear Unit (LReLU): solves vashing gradient problem
