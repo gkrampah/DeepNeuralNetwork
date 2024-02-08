@@ -17,9 +17,37 @@ In backpropagation, as we have more layers, the gradient gets very small at the 
 
 # Activation functions
 
-they improve our ability to determine non-linear outcomes.
+They improve our ability to determine non-linear outcomes. Thus it allows the nn to compute more complex features
 
 1. Sigmoid activation function: prone to vashing gradient problem
 2. hyperbolic tangent function: prone to vashing gradient problem
 3. Rectified Linear Unit (ReLU): solves vashing gradient problem
 4. Leaky Rectified Linear Unit (LReLU): solves vashing gradient problem
+5. softmax
+
+### Output layer:
+Binary classification:sigmoid
+Regression with negative and positive values: Linear activatio furnction
+Regression with only positive values, use ReLU
+
+### Hdden layers
+Most commen choice is ReLU since it is faster. Sigmoid run into the vanishing gradient problem
+
+## Optimizers
+
+Updates weights by optimising the way the gradients are calculated
+
+* Momentum
+* Nesterov momentum
+* Adaptive gradient algorithm (AdaGrad)
+* RMSProp
+* Adam (adapt the learning rate and use several learning rates)
+
+Adam and RMSProp are the most popular
+
+## Data shuffling
+
+### Convolutional Neural Network
+
+### Kernel 
+It is a grid of weights overlaid on image, centered on one pixel. They are feature detectors
