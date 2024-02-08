@@ -51,3 +51,12 @@ Adam and RMSProp are the most popular
 
 ### Kernel 
 It is a grid of weights overlaid on image, centered on one pixel. They are feature detectors
+
+
+## CNN architectures
+
+* LeNet
+* AlexNet
+* VGG
+* Inception
+* ResNet
