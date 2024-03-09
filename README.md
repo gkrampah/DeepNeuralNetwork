@@ -2,6 +2,8 @@
 
 In this project I want to forecast the daily minimum temperatures of a city using some historical (10 years of data). Since the forecast is mainly geared towards prediction, I resort to using deep neural networks in making the daily predictions.
 
+To view the project [click here](https://github.com/gkrampah/DeepNeuralNetwork/blob/main/project.ipynb)
+
 # Some Personal Notes
 
 ## Neural Network
